@@ -1,0 +1,66 @@
+<!-- <p>register works!</p> -->
+<app-navbar></app-navbar>
+<section class="vh-100" style="background-color: #508bfc;">
+    <section class="row justify-content-center">
+      <section class="col-12 col-sm-6 col-md-4">
+        <div class="container py-5 h-100">
+          <!-- <div class="row d-flex justify-content-center align-items-center h-50"> -->
+            <!-- <div class="col-12 col-md-8 col-lg-6 col-xl-5"> -->
+              <div class="card shadow-2-strong" style="border-radius: 1rem;">
+                <div class="card-body p-5 text-center">
+
+<!-- <div class="col-6 logout"> -->
+    <h1>Registration</h1>
+    <form [formGroup]="myform" (ngSubmit)="onSubmit()" class="form-container">
+
+      <div class="form-group">
+        
+
+      <!-- <h4 class="text-center font-weight-bold"> Login </h4> -->
+
+      <label for="text">Username</label>
+
+      <input type="text" class="form-control" formControlName="username" placeholder="username">
+
+      </div>
+
+
+
+      <div class="form-group">
+
+          <!-- <h4 class="text-center font-weight-bold"> Login </h4> -->
+
+          <label for="email">Email</label>
+
+          <input type="email" class="form-control" formControlName="email" placeholder="Email">
+
+          </div>
+
+
+
+      <div class="form-group">
+
+      <label for="InputPassword1">Password</label>
+
+      <input type="password" class="form-control" id="InputPassword1" formControlName="password" placeholder="Password">
+
+      </div>
+
+
+
+      <div class="form-group">
+
+          <label for="InputPassword2"> Confirm Password</label>
+
+          <input type="password" class="form-control" id="InputPassword2" formControlName="password2" placeholder=" Confirm Password">
+
+          </div>
+
+      <button type="submit" class="btn btn-primary btn-block">Submit</button>
+
+ 
+
+  </form>
+
+  
+                </div></div></div></section></section></section>
